@@ -1,0 +1,12 @@
+- if signed_in?
+  .row
+    | Welcome #{current_user.email}
+  .row
+    = link_to t('actions.signout'), destroy_user_session_path, method: :delete
+- else
+  - if Devise::mappings[:user].registerable? && controller_name != 'registrations'
+    .row
+      = link_to t('actions.signup'), new_user_registration_path
+  - if controller_name != 'sessions'
+    .row
+      = link_to t('actions.signin'), new_user_session_path
