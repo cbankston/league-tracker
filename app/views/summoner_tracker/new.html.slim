@@ -1,0 +1,8 @@
+h1= t('summoner_tracker.heading')
+h2= t('summoner_tracker.subheading')
+
+= simple_form_for form, url: summoner_tracker_index_path, method: :post do |f|
+  = f.input :region, collection: LolApi::Region.new.options_for_select
+  = f.input :name
+
+  = f.button :submit

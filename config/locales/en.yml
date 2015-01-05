@@ -4,3 +4,28 @@ en:
     signin: "Sign In"
     signout: "Sign Out"
     signup: "Sign Up"
+  errors:
+    messages:
+      summoner_not_found: ' was not found'
+  region:
+    br: 'Brazil'
+    eune: 'Europe Nordic & East'
+    euw: 'Europe West'
+    kr: 'Korean'
+    lan: 'Latin America North'
+    na: 'North America'
+    ru: 'Russia'
+    tr: 'Turkey'
+  summoner_tracker:
+    actions:
+      add_summoner: 'Add Summoner'
+    flash:
+      added_success: "Summoner was added successfully"
+    heading: "Summoner Tracker"
+    navigation: "Tracker"
+    subheading: "Add a summoner to the tracker"
+  summoners:
+    heading: "Summoners"
+    navigation: "Summoners"
+    flash:
+      deleted_success: "Summoner was deleted successfully"

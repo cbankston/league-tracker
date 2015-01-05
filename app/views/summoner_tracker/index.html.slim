@@ -1,0 +1,8 @@
+h1= t('summoner_tracker.heading')
+
+.row
+  = link_to t('summoner_tracker.actions.add_summoner'), new_summoner_tracker_path
+
+- summoners.each do |summoner|
+  .row
+    = link_to summoner.name, summoner_path(summoner)

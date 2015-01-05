@@ -1,5 +1,9 @@
 - if signed_in?
   .row
+    = link_to t('summoner_tracker.navigation'), summoner_tracker_index_path
+  .row
+    = link_to t('summoners.navigation'), summoners_path
+  .row
     | Welcome #{current_user.email}
   .row
     = link_to t('actions.signout'), destroy_user_session_path, method: :delete

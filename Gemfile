@@ -8,6 +8,7 @@ gem 'jquery-rails'
 gem 'mongoid', '~> 4.0.0'
 gem 'ruby-lol', '~> 0.9.19', require: 'lol'
 gem 'sass-rails', '~> 4.0.3'
+gem 'simple_form', '~> 3.1.0'
 gem 'slim', '2.0.2'
 gem 'uglifier', '>= 1.3.0'
 
@@ -29,9 +30,12 @@ end
 group :development, :test do
   gem 'database_cleaner'
   gem 'factory_girl_rails'
+  gem 'formulaic'
   gem 'pry'
   gem 'quiet_assets'
   gem 'rspec-rails'
+  gem 'vcr'
+  gem 'webmock', require: false
 end
 
 group :test do
