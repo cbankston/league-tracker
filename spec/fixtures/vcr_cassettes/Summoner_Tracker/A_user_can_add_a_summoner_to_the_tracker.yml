@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/zomghazerd?api_key=<API_KEY>
+    uri: https://na.api.pvp.net/api/lol/na/v1.4/summoner/by-name/zomghazerd?api_key=<API_KEY>
     body:
       encoding: US-ASCII
       string: ''
@@ -27,20 +27,20 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Mon, 05 Jan 2015 03:01:42 GMT
+      - Wed, 28 Oct 2015 04:37:54 GMT
       Server:
-      - Jetty(9.1.1.v20140108)
+      - Jetty(9.1.5.v20140505)
       Vary:
       - Accept-Encoding, User-Agent
       X-Newrelic-App-Data:
-      - PxQFWFFSDwQTVVdUBAgAVkYdFGQHBDcQUQxLA1tMXV1dORYzVBBGBxdCdhUSEVFRRRAEPhhQRw84HlpcDjpMDFE+FxQJFgBuHE9lTlMYHgwFW1I9SUkaHwBKUU4HHwdWVQADClZVWk4dUxRAAQEEClBWXQJUBwpaAFRUQzs=
-      Transfer-Encoding:
-      - chunked
+      - PxQFWFFSDwQTVVdUBAgAVkYdFGQHBDcQUQxLA1tMXV1dORYzVBBGBxdCdhUSEVFRRRAEPhhQRw84HlpcDjpMDFE+FxQJFgBuHBZMDFwOXQcWahgDH05WUl0BPU1ERFoLC19TQSwHDgdDQBRSFggYAh1VCVAEWApUVwAbTFdPGlJVUlFXU1BWXwUEUlVaVlpAbQ==
+      Content-Length:
+      - '126'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"zomghazerd":{"id":23861944,"name":"zomgHazerd","profileIconId":641,"summonerLevel":30,"revisionDate":1418713085000}}'
+      encoding: ASCII-8BIT
+      string: '{"zomghazerd":{"id":23861944,"name":"zomgHazerd","profileIconId":641,"summonerLevel":30,"revisionDate":1437978434000}}'
     http_version: 
-  recorded_at: Mon, 05 Jan 2015 03:01:42 GMT
+  recorded_at: Wed, 28 Oct 2015 04:37:54 GMT
 recorded_with: VCR 2.9.3
